@@ -54,13 +54,15 @@
                       alt="ícone de coração"
                     />
                   </span>
+                  <p class="imagem__texto">{{fotografia.descricao}}</p>
+
                 </div>
               </div>
             </li>
             
             {% endfor %}
             {% else %}
-            <div class="image_texto">
+            <div  class="imagem__texto">
               <p>Fotografias não encontradas</p>
             </div>
             {% endif %}
